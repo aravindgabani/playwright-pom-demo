@@ -9,24 +9,22 @@ It is designed for beginners who want to learn structured test automation with P
 📖 Full step-by-step tutorial:  
 👉 [Playwright Page Object Model (JavaScript)](https://software-testing-tutorials-automation.com/2025/09/playwright-page-object-model-javascript.html)
 
+
 ---
 
 ## 📂 Project Structure
 
----
-
-## Project Structure
+```bash
 project-root/
 ├─ pages/
-│ └─ LoginPage.js # Page Object Model for login page
+│  └─ LoginPage.js       # Page Object Model for login page
 ├─ tests/
-│ └─ login.spec.js # Test file for valid/invalid login
+│  └─ login.spec.js      # Test file for valid/invalid login
 ├─ utilities/
-│ ├─ testData.js # Test data (valid + invalid users)
-│ └─ login.html # Sample offline login page
-├─ playwright.config.js # Playwright configuration
-
----
+│  ├─ testData.js        # Test data (valid + invalid users)
+│  └─ login.html         # Sample offline login page
+├─ playwright.config.js  # Playwright configuration
+```
 
 ## 🚀 Getting Started
 
